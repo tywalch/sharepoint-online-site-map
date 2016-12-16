@@ -12,6 +12,9 @@ $SITECOLLECTIONALIAS = 'Site'
 $SUBSITEALIAS = 'SubSite'
 
 $Username = "admin@$YOURTENANT.onmicrosoft.com"
+# USE TO OVERRIDE
+#$PasswordString = ''
+#$Password = $PasswordString | ConvertTo-SecureString -AsPlainText -Force 
 
 $AdminUrl = "https://$YOURTENANT-admin.sharepoint.com/"
 $DestinationSiteURL = "https://$YOURTENANT.sharepoint.com/sites/$DIRECTORYSITE/"
